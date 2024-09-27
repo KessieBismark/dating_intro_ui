@@ -4,16 +4,16 @@ import 'package:provider/provider.dart';
 import '../provider/theme_provider.dart';
 import '../widgets/content_section.dart';
 
-class ImageScrollScreen extends StatefulWidget {
-  const ImageScrollScreen({
+class IntroScrollScreen extends StatefulWidget {
+  const IntroScrollScreen({
     super.key,
   });
 
   @override
-  _ImageScrollScreenState createState() => _ImageScrollScreenState();
+  _IntroScrollScreenState createState() => _IntroScrollScreenState();
 }
 
-class _ImageScrollScreenState extends State<ImageScrollScreen>
+class _IntroScrollScreenState extends State<IntroScrollScreen>
     with SingleTickerProviderStateMixin {
   late ScrollController _leftController;
   late ScrollController _rightController;

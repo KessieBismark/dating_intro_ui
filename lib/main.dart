@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'provider/theme_provider.dart';
-import 'screens/image_scroll_screen.dart';
+import 'screens/intro.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
             darkTheme: ThemeData.dark(),
             themeMode:
                 themeProvider.isDarkTheme ? ThemeMode.dark : ThemeMode.light,
-            home: const ImageScrollScreen(),
+            home: const IntroScrollScreen(),
           );
         },
       ),
